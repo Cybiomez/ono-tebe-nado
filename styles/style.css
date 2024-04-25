@@ -11,15 +11,14 @@
 .header {
   /* общие стили шапки */
   display: flex;
-  padding: 92px 24px 96px 24px;
-  width: 1052px;
+  padding: 92px 24px 96px;
   background-color: #CFCFCF;
-  border: solid 1px black
 }
 
 .header__menu {
   /* стили контейнера меню */
-  padding: 44px 36px 39px 25.52px;
+  padding: 44px 36px 39px 26px;
+  margin: 0;
   height: 22px;
 }
 
@@ -34,8 +33,9 @@
 .header__links-list-item {
   /* стили элементов меню */
   font-weight: 400;
-  font-size: 17.5px;
+  font-size: 18px;
   line-height: 21px;
+  letter-spacing: 0.18px;
   list-style: circle;
   margin-left: 11.5px;
 }
@@ -58,21 +58,41 @@
 
 .header__logo {
   /* стили ссылки header logo */
-  display: block;
-  width: 130px;
+  display: flex;
+  justify-content: center;
+  width: 148px;
   height: 105px;
 }
 
 /*
 .header__logo-image {
-  width: 130px;
-  height: 105px;
+
 }
 */
 
 .address {
-  line-height: 24px;
-  padding: 5px 25.48px 2px 184px ;
+  padding: 5px 0px 0px 184px ;
+  font-size: 18px;
+  line-height: 24.3px;
+}
+
+.nomber {
+  letter-spacing: 0.243px;
+}
+
+.mail {
+  letter-spacing: 0.243px;
 }
 
 /* </header> */
+
+/* <main> */
+
+.main {
+  /* общие стили шапки */
+  display: flex;
+  background-color: #CFCFCF;
+  border-top: solid 1px black;
+}
+
+/* </main> */
