@@ -106,58 +106,97 @@
   padding: 0px 0px 90px;
 
   background-color: #CFCFCF;
+  /*
   border-top: solid 1px black;
   border-bottom: solid 1px black;
+  */
 }
 
 /* <cover> */
 
 .cover {
   /* стили входной секции */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   position: relative;
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-repeat: inherit;
   background-position: center;
   height: 757px;
+  padding: 165px 50px 50px;
 }
 
 .cover__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 100px;
+  width: 100%;
   position: relative;
   z-index: +1;
 }
 
 .aligned-text {
-
+  display: flex;
+  text-transform: uppercase;
+  justify-content: start;
+  letter-spacing: 30px;
+  line-height: 115px;
+  color: #FFFFFF;
 }
 
 .aligned-text_center {
-
+  display: flex;
+  justify-content: center;
+  line-height: 100px;
 }
 
 .aligned-text_right {
-
+  display: flex;
+  justify-content: end;
+  line-height: 100px;
 }
 
 .letter-spacing-extended {
-
+  letter-spacing: 60px;
 }
 
 .no-letter-spacing {
-
+  letter-spacing: normal;
 }
 
 .cover__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
   position: relative;
   z-index: +1;
 }
 
 .cover__description-text {
-  
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-left: 18px;
+  word-spacing: 20px;
 }
 
 .bet-button {
-
+  width: 256px;
+  height: 51px;
+  border: solid 1px white;
+  font-size: 22px;
+  line-height: 25.83px;
+  width: 500;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: rgb(0%, 0%, 0%, 0);
 }
 
 /* </cover> */
@@ -179,6 +218,7 @@
   font-weight: 700;
   text-transform: uppercase;
   line-height: 46.96px;
+  color: #000000;
 }
 
 .lots__card-list {
@@ -281,7 +321,7 @@
 }
 
 .about__column {
-  border: solid 1px black;
+
 }
 
 .about__column-left {
@@ -291,23 +331,46 @@
 }
 
 .about__column-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   grid-column-start: 2;
   grid-column-end: 4;
+  padding-top: 133px;
+}
 
+.about__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  background-color: #000000;
+  border-radius: 120px;
 }
 
 .about__logo-image {
-  
   width: 148px;
   height: 114px;
 }
 
 .about__title {
-
+  font-size: 40px;
+  width: 700;
+  line-height: 46.96px;
+  text-transform: uppercase;
 }
 
 .about__text {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 5px;
+  gap: 24px;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.2;
 }
 
 /* </about> */
