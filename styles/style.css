@@ -197,6 +197,7 @@
   text-transform: uppercase;
   color: #FFFFFF;
   background-color: rgb(0%, 0%, 0%, 0);
+  cursor: pointer;
 }
 
 /* </cover> */
