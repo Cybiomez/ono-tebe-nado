@@ -125,7 +125,8 @@
   background-size: cover;
   background-repeat: inherit;
   background-position: center;
-  height: 757px;
+  min-height: 757px;;
+  gap: 135px;
   padding: 165px 50px 50px;
 }
 
@@ -234,7 +235,6 @@
   /* стили пунктов списка карточек */
   display: flex;
   flex-grow: 1;
-  height: 563px;
   width: 100%;
 }
 
