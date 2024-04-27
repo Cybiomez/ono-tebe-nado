@@ -325,7 +325,7 @@
   /* разметка левой колонки информационной секции */
   display: flex;
   justify-content: center;
-  padding-top: 32px;
+  padding-top: 35px;
 }
 
 .about__column-right {
