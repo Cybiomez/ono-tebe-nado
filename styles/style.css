@@ -230,7 +230,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  flex-wrap: initial;
   gap: 25px;
   padding-top: 27px;
 }
@@ -360,7 +359,6 @@
 .about__title {
   /* стили заголовка */
   font-size: 40px;
-  width: 700px;
   line-height: 46.96px;
   text-transform: uppercase;
 }
